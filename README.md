@@ -144,6 +144,8 @@ The long-term goal is to integrate AI directly into the app so learners can rece
 
 This project is a static web prototype, so no installation is required.
 
+### Option 1: Open directly
+
 Clone the repository:
 
 ```bash
@@ -151,18 +153,31 @@ git clone https://github.com/VinhOnGitHub/rtg-chinese-learning-demo.git
 cd rtg-chinese-learning-demo
 ```
 
-Open the app directly:
+Then open the file below in your browser:
 
+```text
 index.html
+```
 
-Or run a simple local server:
+### Option 2: Run with a local server
 
+You can also run it with a simple Python server:
+
+```bash
 python -m http.server 8000
+```
 
 Then visit:
 
+```text
 http://localhost:8000
-📦 Project Structure
+```
+
+---
+
+## 📦 Project Structure
+
+```text
 rtg-chinese-learning-demo/
 ├── index.html
 ├── README.md
@@ -171,31 +186,42 @@ rtg-chinese-learning-demo/
     ├── vocabulary.png
     ├── grammar.png
     └── pronunciation.png
-🧪 Current Status
+```
 
-This project is currently an active prototype.
+---
+
+## 🧪 Current Status
+
+This project is currently an **active prototype**.
 
 The app is already demonstrable as a browser-based product demo. The current code is still kept in a single HTML file for fast testing and iteration. Future versions will split the app into modular components and improve the data structure.
 
-🗺️ Roadmap
- Enable and verify GitHub Pages live demo
- Add real product screenshots
- Split the single HTML file into modular components
- Improve vocabulary and lesson data structure
- Add cloud sync or account system
- Add AI-generated personalized exercises
- Add AI dialogue practice
- Add pronunciation scoring and feedback
- Integrate Xiaomi MiMo API for Chinese learning assistance
- Improve mobile UI and learning flow
- Build a reusable HSK content library
+---
 
-📌 Notes
+## 🗺️ Roadmap
+
+- [ ] Enable and verify GitHub Pages live demo
+- [ ] Add real product screenshots
+- [ ] Split the single HTML file into modular components
+- [ ] Improve vocabulary and lesson data structure
+- [ ] Add cloud sync or account system
+- [ ] Add AI-generated personalized exercises
+- [ ] Add AI dialogue practice
+- [ ] Add pronunciation scoring and feedback
+- [ ] Integrate Xiaomi MiMo API for Chinese learning assistance
+- [ ] Improve mobile UI and learning flow
+- [ ] Build a reusable HSK content library
+
+---
+
+## 📌 Notes
 
 This repository is a prototype and does not include private API keys or production credentials.
 
 Some features are experimental and may depend on browser support, local storage, or external API configuration.
 
-👤 Author
+---
 
-Built by VinhOnGitHub as an independent learning tool project for Vietnamese learners studying Chinese.
+## 👤 Author
+
+Built by **VinhOnGitHub** as an independent learning tool project for Vietnamese learners studying Chinese.
