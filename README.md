@@ -39,6 +39,38 @@ The current version is a **single-file static HTML prototype**. It was built thi
 
 ---
 
+## 📦 Demo Data
+
+This repository includes a sample backup file so reviewers can quickly test the app with real learning content.
+
+The demo data contains Chinese courses, lessons, vocabulary lists, example sentences, passages, pinyin, Vietnamese translations, and review-related learning data.
+
+- **Sample backup file:**  
+  [demo-data/chinese-vocab-backup-2026-04-25.json](demo-data/chinese-vocab-backup-2026-04-25.json)
+
+- **Raw download link:**  
+  [Download sample JSON backup](https://raw.githubusercontent.com/VinhOnGitHub/rtg-chinese-learning-demo/main/demo-data/chinese-vocab-backup-2026-04-25.json)
+
+### How to test with demo data
+
+1. Open the live demo:  
+   [Open Web App Demo](https://vinhongithub.github.io/rtg-chinese-learning-demo/)
+
+2. Download the sample JSON backup file:  
+   [Download sample JSON backup](https://raw.githubusercontent.com/VinhOnGitHub/rtg-chinese-learning-demo/main/demo-data/chinese-vocab-backup-2026-04-25.json)
+
+3. In the app, open the settings (⚙️ Quản lý & Cài đặt) / import menu (Nhập dữ liệu (Restore) ).
+
+4. Choose the JSON backup import option.
+
+5. Select `chinese-vocab-backup-2026-04-25.json`.
+
+6. Confirm the import and wait for the app to reload.
+
+7. After importing, the app should display preloaded Chinese courses, lessons, vocabulary, passages, and review content.
+
+> Note: The app stores learning data locally in the browser, using localStorage / IndexedDB-style storage. Imported demo data stays in the user's browser and does not require a backend.
+
 ## ✨ Key Features
 
 ### 📚 Course & Lesson Management
